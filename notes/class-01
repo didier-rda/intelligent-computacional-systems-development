@@ -1,0 +1,221 @@
+aula 1
+
+lider de ML Elo7
+
+
+warm up
+
+menti.com
+
+agilidade, dataops, pipline, produtização, boas práticas.
+
+pedro passarelli
+
+astrofísica ciência de dados
+
+sistemas inteligentes
+
+oq é?
+
+sistema:
+7 grupos de def forma
+
+uma possível
+conjunto q a soma dos elementos é mais dq o todo.
+assistir vídeo sobre o conceito de emergência.
+
+inteligência
+eu coloquei:
+Dado um contexto, a tomada de decisão a partir da informação existente.
+
+
+
+
+inteligência:
+
+
+uma pedra é inteligente?
+Não.
+Não toma decisão...
+gradação de inteligência
+
+ameba é mais int q uma bactéria?
+
+se não conseguimos definir oq é inteligência, como 
+definir oq é IA?
+
+até teve alguém q tentou dar uma eq pra inteligência, 
+porém não é unanime.
+
+oq é ser inteligente?
+
+link pro artigo de conceitos de inteligência, matemat estat.
+
+oq chamamos de IA é de fato IA?
+
+PARA FINS DESSE CURSO:
+
+sistema: Software feito para ser utilizado por pessoas.
+
+automatizar uma tarefa: Não é um sistema.
+
+tem q ter um cliente e usuário.
+coisas feitas para serem utilizadas por outras pessoas
+
+inteligente:
+SOftware que usa modelos de AI/ML na sua lógica de negócxio.
+
+
+TUDO ISSO: Machine Learning Engineering.
+
+ML ENGENNIEERG
+
+software eng
+data scientist
+service reliability eng
+data engineer
+devops eng (bem errado)
+
+oq faz um CD?
+minha testa junto ao time de negócio e 
+através de métodos matemáticos ,hipótesers.
+
+CD - Modelagem (representação da realidade)
+quase sempre errada porém útil.
+sempre é uma simplificação.
+
+simplificação da realidade parea algo útil.
+TEM q entender o negócio/ realidade.
+
+para q se faz o modelo?
+simplificar para uma predição útil.
+
+enxergar, transformar, prever e com essa prev
+tentar responder pergunta/ ganhar dim.
+MODELAGEM
+
+ENG DADOS
+cria e gerencia sistemas de coleções (estruturados ou nao) de dados.
+
+"Computação tem 2 probs dificeis- lidar cash e nomear as coisas"
+
+visão clássica de ETL dos dados.
+
+databases adms, não cuida apenas.
+ter q lidar com ecosistema muito maior
+big data
+
+oq é sofware eng?
+DESENVOLVIMENTO
+
+diff entre eng software e desenvolvedor?
+e o programador?
+
+qual a diferença.
+
+def professor:
+eng e desenvolvedor não é a mesma coisa.
+
+eng de software (no mercado)
+desenvolvedor de software profissional.
+
+disciplina de eng de software.
+- mto soft -> viora bagunça;
+essa técnica criou a área de eng software
+mais de 50% dos softwares acaba dando errado.
+dev e prg profissional q conhece varias dessas tecnicas e 
+as aplicas no mundo real..
+
+service reliability engineer (SRE)
+guarda chuva - OPERAÇÕES
+
+devOPS
+
+operaçoes se preocupavam em manter em produção.
+depois de uma publicação do google, prof de operações
+q tá lá pra manter o software no ar.
+
+ML ENGINEER - FAZ OS SISTEMAS INTELIGENTES
+
+um pouco de tudo (DS, DE, SE, SRE)
+
+surgiu como "cola"
+
+saber as 4 não garante q consegue fazer algo útil.
+cada um desses profs é um especialista.
+mas pra criar algo útil, fazer mod q vai criar uma info estrutura.
+
+conhecimento mais horizontal dq vertical e ser capaz de dialogar com
+todas essas áreas.
+
+INTELLIGENT SYSTEM (junção das 4 forças)
+
+objetivo do curso:
+
+capacitar os estudantes a desenvoverem
+sistemas inteligentes
+para q eles possam atuar como ML ENGINEERS.
+
+6 semanas de curso.
+EMENTA:
+sistemas inteligentes
+tipos de aprendizado
+ciencia de dados
+agilidade
+banco de dados
+processamento de dados
+infra
+devops
+construção de apis
+back-end
+boas práticas
+
+referÊncia de como se especializar nessas áreas.
+SABER OQ VCS NÃO SABEM.
+
+planejamento
+
+1- curso modo geral
+2- intro a sistemas int
+3- Pipeline de ciência de dados (cd)
+4- agilidade para aprendizado de máquina.(eng software)
+5- Projeto parte 1. projeto para ser desenvolvido.
+6- modalidade de BDs (ED)
+7- artq de procesdametno de dados ()
+8- copnstrução de APIs
+7- metodologia  entrega continua para aprendizado de máquina(OPS)
+8- operação e infroestrutura para aprendizado de máquina
+9- Princípio e padrões arquiteturais de sistemas. (ES)  "nenhum soft é uma ilha"
+10- Comunicação sobre aprendizado de máquina.(como comunicar) "Oq diabos o seu sistema faz?" Pessoas não estão acostumadas com softwares q conversam com dados.
+11- Apresentação dos projetos.
+
+
+
+uma pedra é inteligente?
+Não.
+Não toma decisão...
+
+
+Projeto:
+Desenvolver um sistema inteligente simples.
+
+Parte 1 - 29/01 a 11/02 (2 semanas)
+
+vamos explorar o lado ciência de dados construindo uma
+pipeline para treinar um modelo de aprendizado de máquina.
+
+Parte 2 - 12/02 a 25/03 (2 semanas)
+Vamos explorar o lado engenharia de software construindo uma
+API para consultar um modelo de aprendizado de máquina.
+
+Nota do curso:
+80% do projeto + 20% de presença nas aulas.
+
+warm-up
+aidungeon.io
+
+slides das aulas
+grav das aulas
+avisos duvidas e materiais pelo moodle
+
+
