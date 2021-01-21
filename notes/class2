@@ -1,0 +1,231 @@
+intro a sistemas inteligentes
+
+warm up
+
+
+intro a sistemas inteligentes
+
+
+criando um sistema inteligente no mundo real
+
+quebrar o sistema
+
+introdução a sistemas inteligentes
+
+oq é sistema, oq é ointeligencia
+
+sobre inteluigencvia sobre sistema
+
+bacana o de inteligencia percepção
+
+sobre o vídeo inteligência
+
+escala no nível de inteligência
+formas mais sofisticadas
+
+leitura complenmentar
+
+área em estatística s n necessariamente)
+
+por parametros
+
+associações de textos
+
+sistemas inteligentes - sistemas específicos
+
+conceito de emergência
+o conceito de emergência
+
+coisas úteis para serem usados pelas pessoas
+resolve a maior parte dos problemas usando a maior qtd
+de abstrações.
+
+no contexto de um sistema inteligente
+
+no geral ta inserido nu,m sistrem,a mto maior,
+mas mtas vezes o sistema intelgenmte q trás complexidade 
+para esse todo.
+
+feito pra aprender com  dados
+trás complexidade.
+
+todo sistema inteligente precisa ser complexo?
+perde conhecimento
+
+side effects.
+
+inesperado, chatboot 
+
+2 lados
+
+como estamos colocando a inteligência ali dentro e perde
+os dados.
+
+definição mais formal 
+
+Building intelligent System 
+geoff Hulten
+
+
+INTERAÇÃO COM O APRENDIZADO DE MÁQINA;
+
+Elementos de sistemas inteligentes
+
+- Objetivo signifitcatico
+
+o sistema deve ter uma razão para existir, significativa para seus users. 
+q seja implementável num sistema.
+
+Experiência da inteligência
+- deve exibvir a saída do seu componente inteligente e apresent=a-la aos usuários que eles
+atinjam seus objetivos.
+
+- IMplementação da inteligência
+o sistema deve incluir tudo que for necessário para implementar a intelifgÇencia,
+inmcluindo dados, modelos, telemetria, métricas e feedback
+
+- criação da inteligência
+O sistema deve prover meios para q a inteligfenvia
+seja desenvolvida e evoluúida em difertentes contextos.
+
+- orquestração
+O sistema deve administrar os aspectos citados anteriormente
+ao longo do seu ciclo de vida.
+
+existe durante um tempo, precisa ser evoçuído (obj pode mudar com o tempo)
+system as a code
+
+NÃO NECESSARIAMENTE UM SISTEMA INTELIGENTE É A FORMA CORRETA
+precisamos ter um problema q DEMANDE esse tipo de produção
+
+Quando usar:
+
+-problemas grandes. ex: Catalogue todo o conhecimento mundial e acessível (Google)
+
+-problemas de escopo aerto. Probs q contiunuam a crescer com o tempo
+
+-problemas de natureza temporal. Resposta correta muda com o tempo (previsão de demanda)
+
+-probs intrisicamente difíceis. Problemas q expandem as fronteriras dq é possível
+
+Quando sistemas inteligentes funcionam?
+
+- quando um sistema parcial é viável e interessante.
+Sistemas inteligentes são essencialmente incompletos, oncorretos e passíceis de erro.
+O importrante é se o sistema inteligente é bom o 
+suficiente para ser interessante para o usuário e útil para seus criadores.
+
+- quando o sistema gera dados q podem melhorá-lo
+Sistemas inteligentes funcionam ao fechhar o ciclo entre uso e inteligência.
+QUando usuários usam o sistema, a inteligÇencvia melhora; e quando a inteliugencia ,eçhora,
+o sistema produz mais valores aos usuários.
+
+- quando o sistema interfaceia com seus objetivos
+Sistemas inteligentes devem ser capazes de afetar o que influencia seus objeticvos.
+MEDIR O IMPACTO DO SEU SISTEMA NO "MUNDO"
+
+- quando o sistema tem um vom custo-benefício.
+Sistemas inteligentes tem cuistos diferentes de outras formas de construir sistemas
+e seviços compu tacionais --inteluigência. implementação e 
+orquestração ==e esses fatores devem influebnciuar o custo.
+
+sistema pode ser determinístico mas não necessáriamente.
+
+QUANDO FOR DESENVOLVER SISTEMAS INTELIGENTES - PROBLEMA DIFÍCIL
+
+não é pq é difícil q não é simples
+
+até um problema q parece fácil pode ser mto mais compliocado
+
+- MUNDO REAL
+
+sostema de categorização do Elo7
+
+Elo7 é marketplace
+
+artesanais, personallizados e customizados;
+25% dos casamentos no Brasil compram alguma coisa no app
+
+plataformas-
+Desktop
+Android, iOS, web mobile
+
+não apenas produtizar o modelo mas
+qual solução intelifgente.
+sleepyti.me
+
+user bota a categoria
+solução de software tradicional
+
+100 categorias.
+
+6 mi e meio de produtos
+50 mil lojas
+
+cluster por texto.
+mas qual k? vai ser eficiente?
+
+
+solução:
+
+quero encotrar oq tem mascara.
+
+iprob grande
+muda com o tempo
+é aberto
+
+bora classificador?
+muita info pra mtos produtos.
+
+proximidade de cosseno
+trás a categoria
+
+ambiguidade
+
+1 class de 10k categorias
+
+10k para 10k categorias
+
+
+transformou complicado em algo mais solúvel
+como fazer 10k classificadores.
+
+parcial. viável e interessante.
+
+indução finita.
+
+criar para treinar esses modelos
+
+preciso colocar ele no ar.
+vc precisa entender
+
+Não é só o ML, falta estruturar o código.
+esse site é um monolito escrito em java.
+
+micro serviços no 
+assincrona usando eventos,
+em tempo real;
+pouco tempo para classificar o produto.
+em tempo real, ma nuvem.
+
+
+entender:
+entender negocio
+infraestrutura.
+ciencia de dados
+eng dados
+eng software.
+
+vc vai ter q entender sacrificar
+mandar em um certo tyempo
+falar com infra a memoria
+conversar com eng dados pipline q treina e faz tal coisa
+
+desenvolver sistema active learning
+desenvolver o processo recursovp (micro)
+
+toda a arq de software com oq tem em produção;
+
+colocar na nuvem, escalando de um certo jeito.
+
+
