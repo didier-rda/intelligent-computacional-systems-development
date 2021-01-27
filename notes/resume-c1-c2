@@ -1,0 +1,68 @@
+sistema:
+- conjunto q a soma dos elementos é mais dq p todo
+- software utilizado por pessoas
+- tem q ter CLIENTE E USER
+- coisas feitas para serem utilizadas por outras pessoas
+- automatizar uma tarefa: Não é um sistema.
+
+inteligencia:
+SOftware que usa modelos de AI/ML na sua lógica de negócio.
+
+software eng - DESENVOLVE soft profissional - tecnicas para lidar com mto software.
+data scientist- MODELAGEM (mat, estat) simplf da realidade para uma pred util.
+service reliability eng - GARANTE funcionamento em produção
+data engineer - liidar com ecosistema de muito grandes, garantir sua integração.
+devops eng (bem errado)
+
+ML ENG - 
+um pouco de cada e sabe dialogar com cada área entendendo as dores de cada qual, 
+direcionando para q o todo (sistema) seja maior dq a soma das partes. 
+- mais horizontal dq vertical
+
+sis inteligente:
+- sistema inteligente é por definição complexo.
+- todos precisam entender q tem side effects (exemplo nlp)
+- Objetivo signifitcatico - razão para existir e q seja implementável
+- dados, modelos, telemetria, métricas e feedback (evolui)
+- deve prover meios para evoluir em dif contextos (treino com novos dados)
+- 
+-
+
+
+nao necessariamente é a forma correta de resolver
+o problema precisa DEMANDAR o SI
+
+
+Quando usar:
+
+-problemas grandes. ex: Catalogue todo o conhecimento mundial e acessível (Google)
+
+-problemas de escopo aerto. Probs q contiunuam a crescer com o tempo
+
+-problemas de natureza temporal. Resposta correta muda com o tempo (previsão de demanda)
+
+-probs intrisicamente difíceis. Problemas q expandem as fronteriras dq é possível
+
+
+
+-
+-
+-
+-
+
+
+
+quando é funciona?
+
+- quando um resultado parcial é viável e interessante (avião 50% de chance de cair)
+
+
+
+
+
+
+referencia:
+Building intelligent System 
+geoff Hulten
+
+- 
