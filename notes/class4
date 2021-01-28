@@ -1,0 +1,251 @@
+Desenvolvimento de Sistemas Inteligentes
+
+obs. aula passada:
+pipline - Ciência de dados
+automatização - ML Engineer <+ software> & dados
+Ml engineer - é legal mas precisamos de outro modelo
+
+
+tema:
+agilidade para aprendizado de máquina
+
+1 cascata
+2 agil
+3 scrum
+4 extremee prog
+5 kanban
+6 adaptando metodologia ágil
+
+historia
+
+anos60 -70 início
+
+-> cascata:
+
+	req
+	analise
+	projeto
+	implementação
+	teste
+	operação
+
+	cascata veio da eng. civil,
+	uma etapa é totalmente dependente da anterior
+	mudança -> mudança no todo
+
+	software é soft
+	fácil de mudar
+
+-> manifesto ágil
+
+	-ind e interações > processos e ferramentas
+	-software em funcionamento > documentação abrangente
+	-colaboração com o cliente > negociação de contratos
+	-responder a mudanças > seguir um pano
+	
+mesmo havendo valor nos itens à direita,
+valorizamos mais os ítens à esquerda.
+
+dev agil de software é uma filosofia,
+se fala mto de metodologia.
+
+mais dq metodolgia são os 4 princípios
+
+quais são as práticas/ metodologias?
+
+METODOLOGIAS ÁGEIS ==========================================
+- scrum - processo siclico, cerimôminas
+ajudar pessoas (faltou)
+"arcaboço leve" solu ções adaptativas para problemas complexos
+
+valores:
+
+-comprometiomento
+- foco
+-abertura
+-respeito
+-coragem (propor coisas diferentes)
+
+etapas:
+
+vision: oq quer q seu soft faça
+a partir de stories do usuário
+"quero tal funciomaçodade pra tal coisa"
+- STORIES
+
+PRODUCT BACKLOG
+
+SELECTED PRODUCT BACKLOG
+
+SPRINT BACKLOG
+
+serão desenvolvidas entre 2 - 4 semanas
+daily
+
+new functionality
+
+sprint review
+
+retrospective
+volta pro backlog e são selecionados novamente
+
+DIF DE EMP DE TECNOLOGIA
+E QUE USA DE TECNOLOGIA
+
+se vc tem uma emp q usa tec, tá consumindo software.
+uma emp de tecnologia q DESENVOLVE o softw.
+
+product owner / mannager
+
+scrum master / agilista - especialista do método
+
+valores:
+
+-comprometimento
+-foco
+-abertura
+-respeito
+-coragem
+
+- extreme programming
+
+XP é met leve para times de tamanho pequeno ou médio
+desenvolvendo software em face de requerimentos vagos ou
+que mudam rapidamente""
+
+voltado pro dia-a-dia do desenvolvimento
+focado pro MÃO NA MASSA
+small talk pesquisar
+
+valores:
+- comunicação
+- simplicidade
+- feedback
+- coragem
+- respeito
+
+test-driven development
+simple design
+pair programming
+
+refactoring (mudar codigo sem mudart comportamento)
+codigo de todos
+
+code standards
+- padrão de códiho
+
+integração contínua - para todo mundo ci/cd
+
+metáfora / metaphor
+analogias pra explicar oq o codigo faz
+
+sustainable pace
+rítimo sustentável
+
+- Kanban 
+
+cartões associados a trabalhos
+um novo trabalho só pode ser iniciado quando um cartão ta disponivel
+
+quando nao ha mais cartopes livres, nenhum trabalho adicional é add.
+
+propriedades:
+visualizar fluxo de trabalho
+limitar trabalho em progresso
+medir e administrar fluxos
+fazer política de processo explícitas
+usar modelos para reconhecer oportunidades de melhoria
+
+
+SCRUM COM DS
+
+- No geral não, dada a natureza do processo de modelagem.
+
+o processo de modelagem segue o processo científico
+CRISP DM - Passo a passo da CD
+
+no software tradicional - seu trabalho tem q ser mensurável.
+
+obs: realmente é difícil medir o tempo para um modelo
+
+um pouco mais fácil medir o tempo q demora para uma tarefa.
+
+modelagem não:
+precisa do pipline, não sabe se o resultado vai ser bom ou
+ruim.
+
+talvez precise de 30 tentativas.
+
+encaixar isso no processo interativo.
+
+não é positivo:
+quando nao conseguem aplicar o scrum
+(releases)
+pessoas acabam recaindo para fazer cascata.
+
+levanta requisito
+analisa oq pode fazer
+faz um esqueleto do projeto - planejando e implementando a
+implementa
+testa
+operação
+
+problema q as desvantagens do cascata acontecem
+
+tempão para o modelo errado para oq se quer.
+
+chegou no final e mudou o requisito, tem q voltar.
+
+professor:
+oq fazer nessa situação?
+colega:
+modelos mais simples e se tá atendendo a demanda.
+
+prof:
+bom ponto, simpllicidade. MVP
+
+releases.
+
+agilidade tem a ver com falhar.
+falhar rápido para tentar acertar de novo.
+
+levanmtamento de tecnicas
+criação de mini pipeline
+pegar a pip e passar os dados e fazer testes.
+com os modelos, testar e devolver as respostas.
+
+quebrar em partes pequenas
+
+certas práticas não vão funcionar
+então vale abandonar
+
+usar kaban
+
+quando a prática falha lembrar da filosofia.
+
+Não fique no plano
+é melhor se adaptar a mudança dq focar no plano
+
+práticas de simplicidade de um código bem feito.
+
+ou de cinecia de dados para des. software
+
+ou des. software para cinencia de dados
+
+se tem back de sofware, pode dar uma ajuda como 
+agile coach.
+
+sistema inteligente tanto  sof tradicional
+quanto ciencia de dados
+
+posse coletiva.
+se puder ajudar a botar boas práticas,
+vai facilitar a vida de todos como
+time.
+
+mais perguntas?
+
+
+
+
+
