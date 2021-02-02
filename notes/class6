@@ -1,0 +1,325 @@
+desenvolvimento de sistemas digitais
+
+ Engenharia de dados
+
+
+entender bds e infra.
+
+Tema: Bancos de dados
+
+- Breve história da web
+- bd relacional
+- modelo de distri e replicva
+- teorema cap
+- nosql
+- even-sourcing + CQRS
+
+breve historia da web
+
+(100 anos talvez)
+conceito de computabilidade
+
+50 -60 criaram os 1os computadores
+
+ideia diferente:
+era eletrônico, realizar funções diferentes
+dependendo da programação;
+
+linguagens de montação:
+assembles
+
+1os tipos de sistema:
+sistema operacional
+
+forma automática de adminstrar as coisas básicas que
+existem em uma máquima
+
+militar:
+
+melhor dq a rede telefônica  pra trocar informação
+
+arpa net.
+rede q se uma parte dela quebrasse vc conseguiria
+trocar informação.
+
+
+protocolo pra trocar info entre máquinas diferentes.
+
+protocólo IP:
+
+- dividir os baytes em pacotes.
+
+protocólo http (1994)
+
+várias máquinas diferentes de diferentes empresas
+
+queria facilitar q oos pesquisadores compartilha-sem
+info entre eles.
+
+uma máquina sirva texto para outra
+
+texto ter conexão entre eles
+hiperlinks
+
+hyper text protocol
+
+navegador que pega o protocólo e transforma ele
+
+popularizou uma forma de comunicar entre as pessoas
+
+HTML é a linguagen
+http'micas é o protocólo
+
+e se quiser conteúdo diferente para pessdoas  diferentes?
+
+oq vc quer são usuários!
+página seja um template
+
+sugem as primeiras páginas din}}}amica.
+
+Aplicações q usam banco de dados hierárquicos
+
+limitação:
+não é eficiente
+quando tinha sistemas de web diInAmicpos
+
+bancos de dados:
+guardad dados dos usuarios o máximo possível de forma
+escalável.
+
+Pegar os dados e transformar eles em algo útil
+
+COMO acessar esses dados.
+
+quais, pq e como usá-los.
+
+
+bancos de dados relacionais ((nbc(SQL)
+- recuperar dados persistentes
+e cibsuktar grabdes quantidades de dados
+
+- concorrência 
+modelo de controle de acesdso q permite
+leitura e escrita.
+
+- popularidade:
+tornaram-se um padrao
+
+- eficiÊncia
+teoria dos conjuntos e estrutura de dados especializadas para dados.
+
+domínios, tuplas e elementos.
+
+colunas - dominios
+
+tabelas - são tuplas
+
+linhas - são elementos
+
+operações entre conjuntos de maneiras eficientes
+famosos joins
+
+structered query language
+
+sql permite cruzamento de dados declarativamente
+
+ME TRAZ TAL COISA
+
+e o SGBD transforma o pedido em operações entre
+conjunto para implementar coisa mto rápido.
+
+importante, mtos dados e 
+
+os sites com o passar do tempo ficaram tão grandes
+que 1 banco de dados relacional não foi o suficiente
+
+modelos de distribuição:
+
+sharding:
+muito dado e como dividir esses dados.
+- técnica para distribuir dadoss em diversas instancias
+de um cluster de banco de dados 
+
+cada shard opera num servidor independente, au entando a
+resiliência e eicienci de consuimo de recursos
+
+dois tipos:
+
+vertical: por tabelas (federação)
+
+horizontal: 
+
+outro grande problema é ter replicação dos dados.
+
+modelos de replicação?
+
+master -replica
+avisa as réplicas
+
+no master
+só escreve no master.
+capacidade do sistema continuar  funcionando se um deles morrer.
+se a mestra morrer, o sistema geral elege uma nova réplica pra se tornar
+o mestre.
+
+no geral tem um sistema por trás disso.
+
+sharding: resolve problema de distribuição
+replicação: resolve o problema da resiliência.
+
+modelo de replicação par a par
+
+podem ler ou escrever de qualquer uma das máquinas.
+mas se ler dde um certo lugar nao tem a garantia dde que é a última versão
+dos dados.
+
+mestre: 1 - N
+
+peer to peer: N - (N-1)
+
+para cientista de dados ML ENG, oq muda?
+
+as vezes quando te pedirem para ler, vão pedir de uma réplica não da mestre.
+se vc quer ter dado para treinar o modelo vc vai ler de  uma réplica.
+
+retrato similar.
+
+esse é hdfs
+
+
+Teorema CAP
+
+Avaiability
+Conscistency
+Partition Tolerance
+
+
+consistencia: 
+toda leitura recebe a escrita mais recente ou
+recebe erro.
+
+disponibilidade:
+toda requisição receve uma resposta (sem erro),
+mas não [ncia a parthá garantia que essa leitura reflete a 
+escrita mais recenmte.
+
+partition tolerance
+o sistema continua a operar apesar de um número 
+arbritário de mensagens serem perdidas ou atrasadas
+pela rede na comunicação entrenós.
+
+NÃO É POSSÍVEL TER 100% DOS 3
+
+
+sera verdade para todo sistema distrivuido e para banco de dados.
+
+CAP para bancos relacionais.
+
+relacional abraça o lado de q tentmos fazer q o sistema seja conscistente e
+tolerante a partição.
+
+os outros tolerancia a partição e dispomiovel.
+
+
+NoSQL ("Not-Only" SQL)
+
+bancos de dados nao relacionais
+
+BDS nsql armazenam dados de forma especializada
+levando em conta a sua distribuição.
+
+dentro dele já tem uma estratégia pra distribuir dados e guardar grandes volumes.
+
+mais um movimento dq um banco
+
+existem tipos de bancos nosql
+
+- grafos (grafos)
+- chave valor
+- documento
+- colunar
+
+chave valr (KV), documento e colunar
+
+representam dados de forma agregada.
+()
+
+operações de cruzamento de dados (join)
+
+são mais cistosas: dados podem
+ser replocads para facilitar a leitura agregada
+
+redis (kv), mongodb (documento), cassandra(colunar)
+
+não faço uma query.
+já tá escrito ali pra facilitar a leitura.
+
+banco de documento vai além:
+permite operações sobreo documento
+
+documentos com estrutura bem definida e pode fazer 
+operação entre eles.
+
+KV para coisas simples e documento para coisas mais complicadas.
+
+banco colunal parece o de planilha
+
+ao invés de teruma estrutura ríugifa:
+
+para um linha há uma lista q não necessariamente tem uma estrutura física.
+banco colunar: Cassandra
+
+bancos nosql, no geral são mais utilizados onde vc vai GUARDAR o resultado do seu modelo dq
+consultasr.
+
+Netflix só usa cassandra (exemplo extremo)
+
+varia do seu problema.
+
+bancos de dados de grafos:
+
+usados para joins
+
+bancos para joins são um pouco lentos.
+
+
+Banco de dados compartilhado vs Único
+
+Shared Database Pattern
+dentro de um único
+transações podem ser utilçizadas
+para garantir processos entre aplicações
+somente um tipo de banco de dados.
+
+Desafio: COmo criar única visão dos dados.
+
+Single Database per Service Pattern
+
+um BD por aplicação
+
+- consistência de dados feitaentre aplicações e vários bancos de dados.
+
+- Transações podem ser utilizadas dentro de processos de uma única
+applicação.
+
+- Vários tipos de bancos de dados (poliglota: relacional e não relacional)
+
+- Desafio: como lidar com replicação dos dados?
+
+Realidade é mto mais SDPSP
+
+qual o melhor design para os dados naquele serviço.
+
+
+Como lidar com a consistência dos dados.
+
+Event-Sourcing + CQRS
+
+CQRS
+- separação da leitura e da escrita de dados em bases de dados diferentes
+- bbases de dados podem ser de tipos difertentes.
+- bases podem ser de tipos diferentes (poliglota)
+
+- dados são replicados em vários bancos de dados
+
+
