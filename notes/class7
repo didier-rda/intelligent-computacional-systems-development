@@ -1,0 +1,177 @@
+concorrente, paralelo e distribuído
+
+
+fenômeno Big Data
+
+processar grabdes bases de dados
+
+cálculos complicados quanto para processar volumes de dados.
+
+
+física, astronomia
+
+fortran primeiras linguagem q parece texto
+
+famoso cobol para processar dados de natureza empresarial
+
+congorme os anos foram passando
+
+tipos de dados se tornaram mais diversos.
+
+conseguiam representar texto, até hj em dia onde reproduzimos,
+videos/ filmes
+
+bem mais complexos.
+
+se produz muitos dados.
+
+engenharia de dados - infraestrutura
+
+se um dia for muito distante.
+experimentos de física/atronomia
+
+concorrente vs paralelo vs distribuído
+
+simples:
+
+p1 p1 p1 p2 p2
+processador
+máquina
+
+programas rodam por um certo tempo
+'quantum de processamento'
+
+consumir  uma certa quantidade de quantum.
+
+nas primeiras máquinas 1 programa por vez.
+
+quando os computadores passaram a estar mais disponível
+para as pessoas.
+
+os computadores passaram a se tornar máquinas compartilhadas
+entre os usuários.
+
+concorrente (concorrem pelo processador e o SO faz o scheduling)
+
+p1 p2 p1 p2 p1
+processador
+máquina
+
+Paralelo:
+
+p1 p1 p1		p2 p2
+processador #1          processador #2
+	    M Á Q U I N A 
+
+
+Distribuído
+
+p1 p1 p1		p2 p2
+Processador#1	     Máquibna #2
+
+
+problema de trash
+cash
+
+paginação 
+mais memoria dq o processador aguenta
+
+mesmo sem
+
+CPUs vs GPU vs Aceleradores
+
+CPU (Central Processing Unit)
+- Hardware para processamento de propósito geral
+
+- cada dispositivo contém até dezenas de cores
+(unidades básicas de processamento)
+
+- realiza vários tipos de operações gerais
+(controlador + unidade lógica-aritmética)
+
+- arquitetura MIMD (multiple instruction, Multiple data)
+cadfa core pode recever varias instruçĩoes onde programas
+diferentes rodam
+
+- exemplos: intel i5, qualcon snapdragon
+
+- GPU (Graphical Processing Unit)
+
+- Hardware para processamento gráfico
+
+- cada dispositivo contém até milhares de cores
+(unidades básicas de processamento)
+
+- Realiza poucos tipos de operações especializadas
+(shaders + operadores de vetores e matrizes)
+
+- Arquitetura SIMD (single instruction, Multiple data)
+
+- exemplo: NVIDIA GeForce, AMD Readeon
+
+linguagem para programação em GPU
+NVIDEA KUDA
+
+AMD
+OPEN CL
+
+pytorch , tensorflw,
+
+mto mais rápido numa GPU
+
+no paralelismo da GPU milhares de cores.
+
+FPGA
+hardwares especializados.
+
+
+Batch vc Streaming
+
+batch
+- dados processados em uma única rodada
+- grandes volumes de dados por rodada 
+em etapa de processamento.
+- processamento de dados em descanso
+vindos de bancos de dados / armazenamento.
+
+- Maus utilizado para pipline ETL
+(ntic(exctract, transform and load)
+- exemplos: Hadoop, Spark
+
+Processamento Streaming
+- dados processados um de cada vez
+- baixo volume da dos por processamento
+- processamento de dados em movimento,
+vindos de seviços / dispositivos
+
+- mais utilizado para pipelines NRT
+
+- Exemplos: Kafka Straming, flink
+
+
+
+PROCESSAMENTO EM BATCH OU STREAMING
+
+batch + streaming podem ser combinados na arq. Lambda.
+processa,emto em streamingg é infinito
+
+arquitetura lambda
+tanto para otimização quanto por
+
+treinamento batch e streaming
+online learning começa aqui.
+
+condição de corrida
+
+map reduce
+
+onde a computação quantica entra nisso?
+
+
+
+
+streaming:
+
+
+
+
