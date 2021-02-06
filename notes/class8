@@ -1,0 +1,40 @@
+API's
+
+arquitetura 
+
+toda arquitetura é um projeto, mas nem todo projeto é uma
+arquitetura
+
+um sistemea, onde o significativo é medido pelo custo de mudança;
+
+um sistema onde o significativo é medido pelo custo de mudança;
+
+
+estilos arquiteturais.
+medidos pelo custo de mudança.
+
+arquitetura em uma perspectiva ágil
+
+arquitetura contribui na compreensão, reutilização, desenvolvimento, análise, 
+evolução e manutenção do software.
+
+sem uma arquitetura formal?
+
+- Gera módulos e codigo fonte desorganizados, com papéoss e responsabilidades
+mal definidas e com relacionamentos confusos entre si.
+
+- Leva à arquitetura conhecida como big ball of Mud (macarrônico)
+
+não é intuitivo definir.
+
+Estilos Arquiteturais
+
+1	- arquiteturas em camadas
+
+- Padrão mais comum e difundido.
+- Cada camada desempenha uma função específoca
+
+
+arq hexagonal
+
+arq
