@@ -1,0 +1,60 @@
+Validação de modelos
+
+oq é um modelo estar pronto?
+
+data scientist, gestão/gov e eng. envolvida.
+
+data scientist:
+
+encontrei a forma como usar e tá resolvendo o problema.
+"ntica"ntica "ntica"SÓ BOTAR EM PROD"
+
+faz o design, depois a parte de feature selection etc.
+
+oq oum ds tem q mostrar pra gov pra q esteja pronto?
+
+conceito de pronto tem q convergir.
+
+qualidade, atenda o problema de negócio.
+
+riscos e plano de ação
+entender oq poça dar errado e atuar de forma tempestiva.
+
+olhando pro portifólio como um todo.
+
+rituais pra atingir essa qualidade para todos.
+gov de modelos.
+
+cada vez mais importantes
+
+P// Juliana Simao
+- Fui do Itaú da área de modelagem para prevenção de lavagem de dinheiro. 
+Como a área de gov de modelo participa da comunicação com órgãos regulamentadores?
+
+docunebtação
+revisão
+design revuew
+reporte regulatório
+aprovação
+seniors assumindo risco de por em produção
+monitoramento
+
+modelo na mão do eng machine learning
+
+- performance
+- req. por segundo horários de pico
+- como lidar com o modelo em produção
+- bugs em eng. de performance de modelo
+- qts % da feature são diferentes de nulo
+- CONSACISTÊNCIA DA FEATURE
+
+Em q momentos pode ter necessidade de uma explicabilidade maior ou não?
+
+balanço da explicabilidade em relação a métricas
+
+existem casos q vai fazer esse sacrifício.
+
+a amostra muda com  o tempo e isso muda o cenário.
+
+
+
