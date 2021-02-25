@@ -1,0 +1,84 @@
+py.test
+pytest -v
+
+# testar 1 teste unit apenas
+pytest test_math_func.py::test_add
+
+pytest -v -k "add"
+
+run only test that contains add in name
+
+pytest -v -m
+
+add decorator:
+@pytest.mark.number (add tag/mark expression name: number )
+
+to unit tests.
+
+to run:
+pytest -v -m number
+
+
+pytest -v -x
+
+brake test pipiline if FAILED.
+
+--maxfail=2
+
+máximo número de falhas aceitáveis
+
+pytest.mark.skip(reason="do not run")
+
+pytest.mark.skipif(sys.version_info < (3,3), reason="do not run this test")
+
+
+pytest -v -s
+
+print sometihing if PASSED
+
+decorator for mutiple test in a function
+
+@pytest.mark.parametrize('num1, num2, result',
+				(7, 3, 10),
+				('hello', 'world', 'hello world'),
+				(10.5, 25.5, 36))
+
+def test_add(num1, num2, result):
+	assert math_func.add(num1, num2) == result
+
+
+setup method
+
+db = None
+def setupo_module(module):
+	global db
+	db = StudentDB()
+	db.connect('data.jsosn')
+
+def test_scott_data():
+	scott_data = db.get_data('Scott')
+	...
+
+def teardown_module(module):
+	db.close()
+
+
+pytest implementation
+
+@pytest.fixture(scope='module')
+def db():
+	db = StudentDB()
+	db.connect('data.json')
+	return db
+
+and pass db paramter for each test
+
+
+
+@pytest.fixture(scope='module')
+def db():
+	db = StudentDB()
+	db.connect('data.json')
+	yield db
+
+	db.close()
