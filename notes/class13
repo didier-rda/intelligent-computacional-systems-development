@@ -1,0 +1,83 @@
+entender o publico alvo
+
+- negócio
+preocupado com custo apenas
+
+
+- produto
+preocupado com o risco
+
+- tecnologia
+preocupado com a solução
+
+- leigos
+preocupados com problema
+
+
+equilibrar com o público alvo
+
+
+a construção do SI envolva os 4 públicos
+
+prova de conceito: validar q existe uma solução
+viável;
+
+as vezes a modelagem é complexa
+
+reunião da empresa inteira.
+
+premissas
+- conj de hpots consideradas para o entendimento do problema
+- conjunto derestrições consideradas paraa criação da solução
+- todos devem concordar com as premissas para discutir prob + solução
+
+premissa e contecto (1a coisa do projeto)
+
+não ia dar pra um humano fazer
+complicado demais fazer um software q resolve tudo
+vc vai fazer algo q erra.
+
+mostrar a métrica.
+
+apresentando arquitetura + infra
+
+- visão do alto nível dos componentes de um sistema (serviços, jobs, etc)
+
+OML pra desenhar arquiteturas
+
+coisas mais intuitivas
+the c4 model software arquiteture.
+
+pra vcs 
+
+p alvo:
+Renato e colegas
+
+1- premissas e contextps
+ex de premissa - quero usar campos numéricos/ textuais
+prem de q query é importante
+
+contexto prob gerasl ser resolvido
+
+
+- modelos e métricas
+mostrar e explicar
+técnica?
+pq resolve?
+count vectorize
+botei a técnica
+
+
+- arquitetura e infra
+
+- planejamento e incertezas
+passado, problemas q tiveram e (simular o futuro - extra)
+
+inicial
+premissas e contexto
+plano
+apresentação de métricas e modelo
+arquitetura e infraestrutura
+planejamento e incertezas
+
+
